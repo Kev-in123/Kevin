@@ -1,0 +1,133 @@
+/*set a background colour*/
+body  {
+  background-color: #CCCCCC;
+}
+
+/*padding and background for main content*/
+.bodies {
+	margin : 0 auto;
+	width : 50%;
+	background : #FFF;
+	padding : 15px;
+}
+/*chess image is too large so I need to scale it down*/
+.chess{
+	width : 200px;
+	height : auto;
+}
+/*image of me is too large so I need to scale it down*/
+
+.me{
+	width : 300px;
+	height : auto;
+}
+
+/*set a background image*/
+#chess{
+	background-image: url('images/chess.jpg');
+	color: #FFFFFF;
+}
+/*set a background image*/
+
+.sky{
+	background-image: url('images/sky.jpg');
+	background-size: 100% 100%;
+	color: #DB7361;
+}
+
+
+/*bot images are too small so I need to scale it up*/
+.bot{
+	width : 500px;
+	height : auto;
+}
+
+
+/*set a background image*/
+.code{
+	background-image: url('images/code.jpg');
+}
+/*make a box so text is readable*/
+._code, .about{
+	background-color: #87CEEB;
+	color: #000000;
+	box-sizing: content-box;  
+  	width: 1000px;
+  	height: auto;
+  	
+}
+
+/*W3 validators*/
+.validation_tag_css {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 0;
+}
+.validation_tag_css img {
+	width: 88px;
+	height: 31px;
+}
+.validation_tag_html {
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	border: 0;
+}
+.validation_tag_html img {
+	width: 88px;
+	height: 31px;
+}
+/*pagination*/
+.pagination {
+  display: inline-block;
+  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #DDD;
+  background-color: #FFFFFF;
+  
+}
+
+.pagination a.active {
+  background-color: #000080;
+  color: white;
+  border: 1px solid #000080;
+}
+
+.pagination a:hover:not(.active){
+	background-color: #ddd;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*table*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #DDDDDD;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #DDDDDD;
+}
+

@@ -1,0 +1,55 @@
+<!--404 page if the user types the link  and types somethig wrong-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "UTF-8">
+		<!--make website mobile friendly-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--add the css-->
+		<link rel="stylesheet" href="style.css">
+		<!--set an icon-->
+		<link rel="shortcut icon" href="images/ahhh.png">
+		<!--set a page title on the tab-->
+		<title>Error 404</title>
+		
+	</head>
+	
+	<body>
+		<!--set a page title-->
+		<h1>Error 404 :(</h1>
+	    
+
+		<h2>
+			<!--tell the user the page does not exist-->
+			The page you were looking for does not exist
+		</h2>
+		<div>
+			<!--a go back button with simple JS-->
+			<button onclick="goBack()">Go Back</button>
+
+			<script>
+				function goBack() {
+					window.history.back();
+				}
+			</script>
+			<!--go to the home page-->
+			<span>or</span>
+			<button onclick="location.href='index.html'">Go Home</button>
+		</div>
+		<!--validation tags-->
+		<p class="validation_tag_css">
+			<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://kev-in123.github.io/Kevin/404.html">
+				<img src="images/vcss.gif"
+					alt="Valid CSS!">
+			</a>
+		</p>
+		
+		<p class="validation_tag_html">
+			<a href="https://validator.w3.org/nu/?doc=https://kev-in123.github.io/Kevin/404.html">
+				<img src="images/valid_html5.png"
+					alt="Valid HTML!">
+			</a>
+		</p>
+	</body>
+			
+</html>
